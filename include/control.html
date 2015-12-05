@@ -1,0 +1,29 @@
+<div class = "control">
+  <div class = "template-control">
+    <h5> 마스크를 예쁘게 칠합시다. </h5>
+    @@include('./pattern-box/box.html', {
+      "patternName" : "gh",
+      "patternId" : "rainbow"
+    })
+    @@include('./pattern-box/box.html', {
+      "patternName" : "diamond",
+      "patternId" : "diamond"
+    })
+    @@include('./pattern-box/box.html', {
+      "patternName" : "grid",
+      "patternId" : "grid"
+    })
+    @@include('./pattern-box/box.html', {
+      "patternName" : "circle",
+      "patternId" : "circles"
+    })
+    @@include('./pattern-box/box.html', {
+      "patternName" : "green",
+      "patternId" : "green"
+    })
+  </div>
+    <div class = "print">
+      <button onclick = "window.print()" /> print </button>
+    </div>
+    <div style="clear:both; font-size:1px;"></div>
+</div>

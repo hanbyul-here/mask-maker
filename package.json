@@ -1,0 +1,32 @@
+{
+  "name": "backslash",
+  "version": "0.0.0",
+  "description": "mask maker",
+  "main": "js/main.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-watch": "^4.3.5",
+    "gulp-file-include": "0.13.7",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ttps://github.com/hanbyul-here/mask-maker.git"
+  },
+  "keywords": [
+    "mask"
+  ],
+  "author": "hanbyul jo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanbyul-here/mask-maker/issues"
+  },
+  "homepage": "https://github.com/hanbyul-here/mask-maker"
+}
